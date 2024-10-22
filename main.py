@@ -4,6 +4,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/nombres") 
+@app.get("/") 
 async def obtener_nombres(): 
   return ["Juan", "María", "Pedro"]
